@@ -1,0 +1,11 @@
+{
+    "cidr_block":{
+        "$join":{
+            "array":[
+                "$ip",
+                {"$integer":{"min":8,"max":32}}
+            ],
+            "sep":"/"
+        }
+    }
+}
