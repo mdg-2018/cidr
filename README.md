@@ -1,24 +1,18 @@
 <h1>Example scripts for enriching cidr block data with numeric representations of cidr blocks</h1>
 <p> This project provides examples for enriching cidr block data to make it easier to query in MongoDB </p>
 
-Sample:
+<h6>Sample:</h6>
 
 CIDR blocks inserted are: (Indexed on ipAddress - ascending)
 
  
-<code>
-192.168.100.14/22
+<code>192.168.100.14/22</code>
+<code>192.168.100.14/16</code>
+<code>192.168.100.14/24</code>
+<code>192.168.100.14/4</code>
+<code>192.168.100.13/28</code>
+<code>192.168.100.14/16</code>
 
-192.168.100.14/16
-
-192.168.100.14/24
-
-192.168.100.14/4
-
-192.168.100.13/28
-
-192.168.100.14/16
-</code>
  
 
 Case-1
